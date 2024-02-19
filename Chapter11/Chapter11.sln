@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqWithObjects", "LinqWithObjects\LinqWithObjects.csproj", "{7A971F2D-1499-4458-A073-E228DBDED91B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqWithSets", "LinqWithSets\LinqWithSets.csproj", "{4912E7F6-17E4-4CE2-8C1C-C8B6C17CA728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqWithEFCore", "LinqWithEFCore\LinqWithEFCore.csproj", "{C15340AB-8B9F-446D-BC84-63BC5E3C897F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A971F2D-1499-4458-A073-E228DBDED91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A971F2D-1499-4458-A073-E228DBDED91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A971F2D-1499-4458-A073-E228DBDED91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A971F2D-1499-4458-A073-E228DBDED91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4912E7F6-17E4-4CE2-8C1C-C8B6C17CA728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4912E7F6-17E4-4CE2-8C1C-C8B6C17CA728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4912E7F6-17E4-4CE2-8C1C-C8B6C17CA728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4912E7F6-17E4-4CE2-8C1C-C8B6C17CA728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15340AB-8B9F-446D-BC84-63BC5E3C897F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15340AB-8B9F-446D-BC84-63BC5E3C897F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15340AB-8B9F-446D-BC84-63BC5E3C897F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15340AB-8B9F-446D-BC84-63BC5E3C897F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

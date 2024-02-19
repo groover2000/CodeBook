@@ -1,0 +1,1 @@
+https://learn.microsoft.com/ru-ru/dotnet/core/whats-new/dotnet-core-3-0 Здесь про dotnet realese

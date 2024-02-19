@@ -1,0 +1,85 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"languageName":"csharp","name":"csharp"}]}}
+
+#!markdown
+
+1. Какой оператор можно ввести в файл C#, чтобы узнать версию компилятора 
+и языка?
+
+#!csharp
+
+#error version
+
+#!markdown
+
+        Это позволяет компилятору вывести ошибку CS8304 с сообщением, содержащим сведения об используемой версии компилятора и текущей выбранной версии языка
+
+#!markdown
+
+2. Каковы два типа комментариев в C#?
+
+#!csharp
+
+//Однострочный
+/* 
+    Многострочный
+    Комментарий
+*/
+
+#!markdown
+
+3. В чем разница между дословной и интерполированной строкой?
+
+        https://learn.microsoft.com/ru-ru/dotnet/csharp/tutorials/string-interpolation
+
+#!markdown
+
+4. Почему следует быть осторожными при использовании значений float и double?
+ 
+            Они не точные могут быть ошибки в вычислениях 0.1 + 0.2 = 0.3 false
+
+#!markdown
+
+5. Как определить, сколько байтов памяти использует такой тип, как double?
+
+#!csharp
+
+Console.WriteLine(sizeof(int));
+Console.WriteLine(sizeof(double));
+Console.WriteLine(sizeof(float));
+Console.WriteLine(sizeof(decimal));
+
+#!markdown
+
+6. Когда следует использовать ключевое слово var?
+
+        https://learn.microsoft.com/ru-ru/dotnet/csharp/programming-guide/classes-and-structs/implicitly-typed-local-variables
+
+#!markdown
+
+7. Каков новейший способ создания экземпляра класса, такого как XmlDocument?
+
+#!csharp
+
+using System.Xml;
+
+XmlDocument xml1 = new();
+
+#!markdown
+
+8. Почему следует быть осторожными при использовании типа dynamic?
+
+        https://learn.microsoft.com/ru-ru/dotnet/csharp/advanced-topics/interop/using-type-dynamic
+
+#!markdown
+
+9. Как выровнять строку формата по правому краю? 
+
+        https://learn.microsoft.com/ru-ru/dotnet/standard/base-types/how-to-pad-a-number-with-leading-zeros?redirectedfrom=MSDN
+
+#!markdown
+
+10. Какой символ разделяет аргументы в консольном приложении?
+        
+        Пробел SPACE СПАСЕ
