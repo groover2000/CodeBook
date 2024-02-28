@@ -15,9 +15,8 @@ static void FilterAndSort()
     using (Northwind db = new())
     {
         DbSet<Product> allProducts = db.Products;
-
+        int[] some = [1, 2, 3];
         var filteredProducts = allProducts.Where(product => product.UnitPrice < 10m);
-
         var sortedAndFilteredProducts = filteredProducts.OrderByDescending(product => product.UnitPrice);
 
         var projectedProducts = sortedAndFilteredProducts.Select(product => new
